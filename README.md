@@ -1,6 +1,6 @@
 # Лабораторная: оболочка приложения, экран и PWA
 
-# Вы форкаете прошлую `mobdev-auth-lab` работу и работаете в ней
+# Вы форкаете прошлую `mobdev-ts-entity-lab` работу и работаете в ней
 
 [MiniPaint](https://viliusle.github.io/miniPaint/)
 
@@ -39,7 +39,7 @@ npx cap sync
 - `@capacitor/assets` — генерирует иконки и splash из исходников. Работает без Android Studio.
 - `SystemBars` для системных полос уже входит в `@capacitor/core` — отдельный пакет не нужен.
 
-Если `android/` ещё нет — `npx cap add android` и потом `npx cap sync`.
+Если `android/` ещё нет — значит у вас не попала настройка проекта `android` с прошлой пары в коммит. Вернитесь и соберите `apk`, а потом продолжите с шага 1.1.
 
 ### 1.2. Исходники ассетов
 
