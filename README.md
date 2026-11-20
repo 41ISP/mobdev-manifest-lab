@@ -185,7 +185,7 @@ android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
 Посмотрите метаданные:
 
 ```bash
-$ANDROID_HOME/build-tools/36.0.0/aapt2 dump badging \
+$ANDROID_HOME/build-tools/35.0.0/aapt2 dump badging \
   android/app/build/outputs/apk/debug/app-debug.apk | head -40
 ```
 
