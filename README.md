@@ -359,6 +359,8 @@ android/app/src/main/res/values-ru/strings.xml
 
 В `public/manifest.webmanifest` есть поле `description`. Оно не показывается в лаунчере, но используется при установке, в некоторых браузерах и в поиске:
 
+_`public` создается рядом с `src`_
+
 ```json
 {
     "name": "Мои игры",
